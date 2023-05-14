@@ -1,0 +1,22 @@
+public class Main
+{
+    string name;
+    string course;
+    int age;
+	public  main(String name,string course,int age)
+	{
+		this.name=name;
+		this.course=course;
+		this.age=age;
+}
+public string getName()
+{
+    return name;
+}
+public static void main(string[] args)
+{
+    Main s1 = new Main("Srishti","CSE",23);
+    
+    system.out.println(s1.getName());
+}
+}

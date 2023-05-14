@@ -1,0 +1,17 @@
+class mother{
+  int x=2;
+  void show(){
+            system.out.println(x);
+        }
+    }
+class Child extends mother{
+        
+    }
+class Application{
+    public static void main(string[] args){
+        Mother m=new Mother();
+        m.show();
+        Child c=new Child();
+        c.show();
+    }
+}
